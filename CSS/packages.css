@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #2f3035;
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+div.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.logo {
+  width: 250px;
+  height: 80px;
+}
+div.header {
+  text-align: center;
+}
+nav.main {
+  background-color: rgba(138, 130, 130, 0.568);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+a.main {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+a.main:hover {
+  color: #4267b2;
+}
+main {
+  background-color: rgba(224, 224, 224, 0.781);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+table {
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+tr {
+  border: 1px solid black;
+  width: 1024px;
+}
+td {
+  border: 1px solid black;
+}
+
+/* tr heading section */
+tr.heading {
+  width: 1024px;
+  height: 30px;
+}
+/* this is tr heading 2 section  */
+
+tr.heading2 {
+  height: 30px;
+}
+th {
+  border: 1px solid black;
+}
+th.dest {
+  width: 380px;
+}
+th.desc {
+  width: 380px;
+}
+th.price {
+  width: 264px;
+}
+/* this is tr india section */
+
+tr.india {
+  height: 200px;
+  position: relative;
+}
+td.india {
+  width: 376px;
+  height: 200px;
+  position: absolute;
+}
+div.india {
+  width: 375px;
+  height: 196px;
+  position: absolute;
+  text-align: left;
+}
+img.india-taj {
+  width: 373px;
+  height: 197px;
+  position: absolute;
+  animation: move1 3s infinite;
+}
+img.india-kerala {
+  width: 373px;
+  height: 197px;
+  position: absolute;
+  /* z-index: -1; */
+  animation: move2 3s infinite;
+}
+@keyframes move1 {
+  0% {
+    z-index: 1;
+  }
+  50% {
+    z-index: -1;
+  }
+  100% {
+    z-index: 1;
+  }
+}
+@keyframes move2 {
+  0% {
+    z-index: -1;
+  }
+  50% {
+    z-index: 1;
+  }
+  100% {
+    z-index: -1;
+  }
+}

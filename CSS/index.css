@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #2f3035;
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  height: 80px;
+  text-align: center;
+}
+img.logo {
+  width: 250px;
+  height: 80px;
+}
+nav {
+  background-color: rgba(138, 130, 130, 0.479);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #4267b2;
+}
+main {
+  height: 400px;
+  color: rgb(80, 62, 62);
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 240px;
+  padding-left: 240px;
+}
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: rgb(80, 62, 62);
+  font-weight: bold;
+}
+footer {
+  background-color: rgba(124, 113, 113, 0.295);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  color: rgb(0, 0, 0);
+}
+p.copy {
+  font-size: 15px;
+}
+p.dev {
+  font-size: 12px;
+}
