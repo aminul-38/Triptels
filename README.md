@@ -1,6 +1,6 @@
 # Triptels
 
-Triptels is my first web development project as a beginner. It is an incomplete travel booking website that provides user with information about different travel destinations and packages.
+**Triptels** is my first web development project as a beginner. It is an **incomplete** travel booking website that provides user with information about different travel destinations and packages.
 
 ## Features
 
